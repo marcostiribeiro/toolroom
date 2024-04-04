@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Machine Learning Sensor Application</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="header">
+    <h1>Machine Learning Sensor</h1>
+    <h2>Real-time DDoS attack detection</h2>
+  </div>
+  
+  <div id="navbar">
+    <a  href="index.html">Introduction</a>
+    <a  class="active" href="requirements.html">Requirements</a>
+    <a href="demonstration.html">Demonstration</a>
+  </div>
+  
+  <div class="content">
+    <h5>Hardware Requirement</h5>
+      
+<ul>
+  <li>The minimum requirement for the project is a device or virtual machine with at least a 2-core processor and 4 GB of memory.</li>
+
+  <li>
+    The available machine learning models are already trained in the tool repository and can be tested directly. 
+    However, the tool has a training module, thus allowing the tool to be updated with newer training sets or other attacks. 
+    To use this resource, equipment with greater resources is required. 
+    The equipment used to generate the trained models was a 12th generation Core I7 with 32 GB of memory; the time taken was approximately 10 minutes.</li>
+  <li>The solution uses two network interfaces: one used for management and the other to collect packets on the computer network. </li> 
+</ul>
+
+<h5>Software Requirement</h5>
+<ul>
+  <li>The tool is available to download at <i>https://github.com/marcostiribeiro/toolroom</i></li>
+  <li>The tool was developed to be used on the Linux operating system. The Linux kernel used in the tests was version 5.15.0.-41.</li>
+  <li>Tcpdump package version 4.99.1.</li>
+  <li>Python version 3.10.12.</li>
+  <ul>
+      <li>pickle5 package version 0.0.11</li>
+      <li>pandas package version 1.4.3</li>
+      <li>sklearn package version 0.0</li>
+      <li>getmac package version 0.8.3</li>
+      <li>python-iptables package version1.0.1</li>
+      <li>scikit-learn package version 1.1.1</li>
+  </ul>
+  <li>Openjdk version 11.0.22.</li>
+    <ul>
+      <li>libcap-dev package install</li>
+    </ul>
+</ul>
+
+  
+  </div> 
+  
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <title>The Machine Learning Sensor Application</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
 
-    <title>Article Results</title>
 </head>
+
 <body>
-<header>
-        <h1 class="title-text">Um sensor baseado em Aprendizado de Máquina para detecção de ataque DDoS em tempo real.</h1>
-    </header>
-<h2>Abstract</h2>
-      <p>
-       xxx
-      </p>
-<div role="contentinfo">
-      <dl>
-        <dt>Authors</dt>
-        <dd>
-            <b>Marcos Aurelio Ribeiro</b> <br>
-            Graduate Program in Electrical and Computer Engineering, Federal University of Technology - Parana, Curitiba, Brazil
-            <br>
-            <b>Mauro Sergio Pereira Fonseca</b> <br>
-            Graduate Program in Electrical and Computer Engineering, Federal University of Technology - Parana, Curitiba, Brazil
-            <br>
-            <b>Juliana de Santi</b> <br>
-            Academic Department of Informatics, Federal University of Technology - Parana , Curitiba, Brazil
+  <div class="header">
+    <h1>Machine Learning Sensor</h1>
+    <h2>Real-time DDoS attack detection</h2>
+  </div>
 
-        </dd>
-      </dl>
+  <div id="navbar">
+    <a class="active" href="index.html">Introduction</a>
+    <a href="requirements.html">Requirements</a>
+    <a href="demonstration.html">Demonstration</a>
+  </div>
 
+  <div class="content">
+    <h5>The Machine Learning Sensor Application </h5>
+    <p>
+      The Machine Learning Sensor application is a tool designed to detect DDoS attacks.
+      The aim of the tool is that it can be integrated into any network infrastructure as
+      long as it can be accessed by a firewall or security system. The tool was designed to
+      have a simplified interface with the ability to modify its infrastructure according to the user's needs.
+      The initial project was designed to be used on an SDN (Software Defined Networks) model, which was
+      demonstrated in the "Demonstration Video" Section. However, the project is easily adaptable to other models,
+      allowing it to be integrated with other firewalls, IDS security systems, or even local firewalls that have input
+      and output interfaces.
+    </p>
+    <p>The functionality of the application is represented by the image below.
+      The diagram demonstrates the flow of the application from its initialization (Init Process and Select model),
+      the permission request to the security server (Request Server Permission), loading the pre-trained models and
+      entering the test flow cycle.
+      When an attack is detected, the security server is notified.</p>
+    <img src="image/arquitetura.png">
+    <p>The models have different characteristics depending on the metrics they have.
+      The system administrator has the possibility to choose which algorithm meets his needs. For example, if it needs
+      fast algorithms, it does not depend on false positives. The Stacking Classifier ensemble algorithm showed higher
+      detection speed than the Randon Forest algorithm according to the Response Time Machine Learning Algorithms chart.
+      However, in the metrics presented in the Machine Learning Metrics chart, the Random Forest models have greater
+      precision (Precision metric). Another example, the Randon Forest model obtained the best results in the Precision
+      metric, but the Gaussian Naive Bayes model obtained the best result in the Recall metric.
+      In this example, the model has the characteristic of reducing false negatives.</p>
+    <img src="image/metricsML.png">
+    <p></p>
+    <img src="image/timeResponse.png">
 
+  </div>
 
-    </div>
+  <script>
+    window.onscroll = function () { myFunction() };
 
- <section id="results" >
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
 
-      <h2>Introduction</h2>
-      <p>
-        xxx
-      </p>
-
-      <h3>Project demo</h3>
-        <p>Here the functioning of the proposed project is demonstrated. For the demo, the "Blue" server is the primary server, and the "red" server is the secondary server. The operation of the Machine Learning sensor and the SDN Controller are demonstrated.</p>
-        <!-- <video width="852" height="326" src="https://marcostiribeiro.github.io/MovingTargetDefenseProject/video/demoVideo.mp4"></video> -->
- </section>
-
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 </body>
+
 </html>
