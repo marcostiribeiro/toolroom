@@ -83,7 +83,8 @@
           &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "'D' </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Packet counter</font>, <br>          
           &emsp;&emsp;&emsp;&emsp;&emsp;<font color=yellow> { </font> <br>
         </div>
-      <li>"type":"probabilistic" - In probabilistic mode, the probability of the user's action being considered an attack is generated for the IPs configured for monitoring (parameter "servers"). 
+      <li>"type":"probabilistic" - In probabilistic mode, the probability of the user's action being considered an attack is generated for the IPs configured for monitoring (parameter "servers").
+        Only two algorithms are supported with this feature: Random Forest and Neural Networks. Therefore, the "model" parameter must be "RF" or "NN". 
         Unlike the "predict" model, the algorithm does not diagnose the attack, but the probability of it being. The URL is the same as the predictive model. 
         A json data is assembled to be sent with the following signature.</li>
         
