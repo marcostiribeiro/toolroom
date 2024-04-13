@@ -1,0 +1,16 @@
+{
+    "service":"remote",
+    "type" : "predict",
+    "model": "RF",
+    "interface_controller": "enp0s3",
+    "interface": "enp0s8",
+    "server": "192.168.0.100",
+    "login": "sensor_B",
+    "password": "abc",
+    "linecount": 100,
+    "servers": ["10.20.20.30"],
+    "url_server_connect": ":8080/stats/parameter/",
+    "url_server_set_ip": ":8080/stats/black_list/",
+    "show_detect": "True",
+    "generate_report": "True"
+}

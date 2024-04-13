@@ -1,0 +1,221 @@
+2024-04-13 15:49:43 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 15:49:43 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:01:16 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 16:01:16 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:01:53 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 16:01:53 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:03:47 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 16:03:47 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:09:19 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 16:09:19 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:59:41 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 16:59:41 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 16:59:41 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 16:59:42 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 16:59:42 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:43 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 16:59:44 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 16:59:44 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 16:59:45 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:00:55 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:00:55 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:00:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:00:56 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:00:56 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:00:58 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:00:58 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:00:59 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:15:08 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:15:08 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-04-13 17:15:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:15:10 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:15:10 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:11 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:15:12 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:15:12 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:13 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:15:13 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:15:13 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:14 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:15:15 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:15:15 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:16 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
+2024-04-13 17:15:17 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap
+2024-04-13 17:15:17 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /home/user/sensor/sensor_salao_de_ferramenas/assets/files/flowOut
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-04-13 17:15:18 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/user/sensor/sensor_salao_de_ferramenas/assets/files/pcap/out.pcap
