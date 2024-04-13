@@ -33,13 +33,10 @@
     <p>The</Thead>A <a href="https://opennetworking.org/">Software defined network (SDN)</a> architecture was used for the test.
       The proposed controller was developed using the  <a href="https://ryu-sdn.org/"> Ryu SDN Framework</a>.</p>
       <p>An Openflow Switch is required for the model. The Controller was configured for the OpenFlow Switch to work as a layer 2 and 3 switch of the OSI model.</p>
+  
+   <p>To carry out the tests, real virtual machines were used. Virtual machine images are available for download below:</p>
 
-      <p>The controller files used in the tests are available at https://github.com/marcostiribeiro/toolroom/tree/main/controller</p>
-
-    <p>To carry out the tests, real virtual machines were used. Virtual machine images are available for download below:</p>
-
-    <p><a href="https://1drv.ms/f/c/3ed5a411dc50d658/EsI7nps78CVDr5tF6v1cekYBIZd8deejGttBIZ9FwgSTfw?e=f6aX73" download="VDI Images">VDI Images Controller Project </a></p>
-    
+    <p><a href="https://1drv.ms/f/c/3ed5a411dc50d658/EsI7nps78CVDr5tF6v1cekYBIZd8deejGttBIZ9FwgSTfw?e=f6aX73" download="VDI Images">VDI Images Controller Project </a></p>    
     
     <p>The test environment configuration is demonstrated in the image below:</p>
 
@@ -57,73 +54,50 @@
         &emsp;<font color=aqua> "F" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "10.1.1.200/24" </font>, <br>
         
     </div>
-    <p>The tool has two execution modes: remote and local. These modes depend on other configuration parameters for their operation: </p>
-    <ul> 
-      <li>"model":"__" - Machine Learning algorithm that will be used.  </li>
-      <ul>
-        <li>"model":"RF" - model Random Forest</li>
-        <li>"model":"GNB" - model Gaussian Naive Bayes</li>
-        <li>"model":"SVM" - model Support Vector Machine</li>
-        <li>"model":"NN" - model Neural Networks</li>
-        <li>"model":"SC" - model Stacking Classifier</li>
-      </ul>
-      <li> "interface_controller":"enp0s3"  - In this parameter, the name of the operating system's network interface will be inserted. 
-        This interface will contact the security system. Configuration required for remote mode only</li>
-      <li>"interface":"enp0s8" - Interface where the switch flow will be collected. </li>  
-      <li>"server":"192.168.0.100" -  Security server address. Configuration required for remote mode only</li> 
-      <li>"login":"sensor_B"  - Pre-configured login to the security server. Configuration required for remote mode only.</li>
-      <li>"password":"abc"  - Pre-configured password on the security server. Configuration required for remote mode only.</li>
-      <li>"servers":["10.1.1.201"] - IPs that will be monitored by the sensor.</li>
-      <li>"url_server_connect":":8080/stats/parameter/"  - URL address will be used to communicate with the security server and request credentials for access.</li>
-      <li>"url_server_set_ip":":8080/stats/black_list/"  - URL address will be used to communicate to the security server when a malicious user is identified.</li>
-
-    </ul>
-    <ul>
-      <li>"service":"remote" - In remote mode, the preconfigured security server will receive sensor messages when a user is identified as malicious.</li>
-      <li>"service":"local" -  In local mode, the sensor will act as a local 
-        firewall and when it is identified as malicious it will block user activity. This mode has only 3 mandatory parameters: "model", "interface" and "servers".</li>
-    </ul>
-    <p>The diagnostic type has two modes: prediction and probabilistic.</p>
-    <ul>
-      <li>"type":"predict" - In prediction mode, user flow diagnosis is performed by the Machine Learning algorithm. 
-        This mode sends from the defined URL "'http://server_ip.url_server_set_ip". A json data is assembled to be sent with the following signature.</li>
-
-        <div class="json">  
-          
-          &emsp;<font color=aqua> data =</font> = <font color=yellow> { </font> <br>
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "id" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> sensor ID</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "A" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> login</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "B" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Mac Address</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "C" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Malicious IP</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "'D' </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Packet counter</font>, <br>          
-          &emsp;&emsp;&emsp;&emsp;&emsp;<font color=yellow> { </font> <br>
-        </div>
-      <li>"type":"probabilistic" - In probabilistic mode, the probability of the user's action being considered an attack is generated for the IPs configured for monitoring (parameter "servers").
-        Only two algorithms are supported with this feature: Random Forest and Neural Networks. Therefore, the "model" parameter must be "RF" or "NN". 
-        Unlike the "predict" model, the algorithm does not diagnose the attack, but the probability of it being. The URL is the same as the predictive model. 
-        A json data is assembled to be sent with the following signature.</li>
-        
-        <div class="json">  
-          
-          &emsp;<font color=aqua> data =</font> = <font color=yellow> { </font> <br>
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "id" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> sensor ID</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "A" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> login</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "B" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Mac Address</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "C" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Malicious IP</font>, <br> 
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "'D' </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Packet counter</font>, <br>          
-          &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font color=aqua> "'F' </font>       &ensp;<font color=white> : </font>              <font color=burlywood> Attack probability</font>, <br>          
-          &emsp;&emsp;&emsp;&emsp;&emsp;<font color=yellow> { </font> <br>
-        </div>
-    </ul>
-
-    <Ul>
-      <li>"linecount":"1000" - Quantity of package that are collected to be tested by the sensor. 
-        The greater the number of packets, the greater the detection time. The tested value was 600 packages.</li>
-      <li>"show_detect":"True" - Parameter used to display IPs identified as malicious during execution.</li>
-      <li>"generate_report":"True" -  When set to True, it creates a report of packages diagnosed as malicious, the quantity and the date/time of detection.</li>
-    </Ul>
-    
    
+    <p>All virtual machines have the same login and password:</p>
+    <div class="json">    
+      &emsp;<font color=aqua> "login" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "user" </font>, <br>
+      &emsp;<font color=aqua> "user" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> 123456 </font>, <br>
+    </div>
+
+    <h5>Running the demo</h5> 
+    <p>It is necessary that all virtual machines are running.</p>
+    <p>The controller and sensor files are included with the virtual machines for testing.</p>
+
+    <p>Study codes are available at: the controller files <b>https://github.com/marcostiribeiro/toolroom/tree/main/controller</b> and
+      the sensor files <b>https://github.com/marcostiribeiro/toolroom/tree/main/sensor </b>.</p>
+   
+    <p><b>SDN Controller</b></p>
+    <ul>
+      <li>Run the SDN Controller virtual machine</li>
+      <li>In the user folder, access the controller folder.</li>
+      <li>Run the run.sh script.</li>
+      <li>sudo run.sh</li>   
+    </ul>
+    <p><b>Machine Learning Sensor</b></p>
+    <ul>
+      <li>Run the Machine Learning Sensor virtual machine</li>
+      <li>In the user folder, access the sensor folder.</li>
+      <li>Run the python program</li>
+      <li>python3 __Main__.py</li>  
+    </ul>
+
+    <p><b>Malicious Client</b></p>
+    <p>This virtual machine will execute the DDoS attack.</p>
+    <p>A script was created to execute the attack against the Web server.</p>
+    <ul>
+      <li>Run the Client virtual machine</li>
+      <li>In the user folder</li>
+      <li>Run the python program</li>
+      <li>python3 scriptDDoSAtrack.py</li>  
+    </ul>
+
+
+    
+    
+    
+
     
       
 
