@@ -26,27 +26,33 @@
 
   <div class="content">
     <h5>Test environment configuration</h5>
-    <p>The network simulation was carried out using the GNS3 tool (https://www.gns3.com/). </p>
-    <p>To carry out the tests, real virtual machines were used. The virtual machine images are available below:</p>
+    <p>The network simulation was carried out using the GNS3 tool (https://www.gns3.com/).</p>
 
-    <p><a href="/vdi/controller.vdi" download="VDI Image">Controller SDN Image </a></p>
+    <p><b>SDN architecture</b></p>
+
+    <p>The</Thead>A <a href="https://opennetworking.org/">Software defined network (SDN)</a> architecture was used for the test.
+      The proposed controller was developed using the  <a href="https://ryu-sdn.org/"> Ryu SDN Framework</a>.</p>
+      <p>An Openflow Switch is required for the model. The Controller was configured for the OpenFlow Switch to work as a layer 2 and 3 switch of the OSI model.</p>
+
+    <p>To carry out the tests, real virtual machines were used. Virtual machine images are available for download below:</p>
+
+    <p><a href="https://1drv.ms/f/c/3ed5a411dc50d658/EsI7nps78CVDr5tF6v1cekYBIZd8deejGttBIZ9FwgSTfw?e=f6aX73" download="VDI Images">VDI Images Controller Project </a></p>
     
     
     <p>The test environment configuration is demonstrated in the image below:</p>
 
     <img src="image/topologyTest.png">
 
-    <p>The tool contains a configuration file called <i>"Config.json"</i>. This file will perform the parameterization of the use of the tool.
-      The file is presented below. </p>    
+    <p>The IPs of the Virtual Machine interfaces: </p>    
     
       <div class="json">       
        
-        &emsp;<font color=aqua> "A" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "local" </font>, <br>
-        &emsp;<font color=aqua> "B" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "predict" </font>, <br>
-        &emsp;<font color=aqua> "C" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "RF" </font>, <br>
-        &emsp;<font color=aqua> "D" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "enp0s3" </font>, <br>
-        &emsp;<font color=aqua> "E" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "enp0s8" </font>, <br>
-        &emsp;<font color=aqua> "F" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "192.168.0.100" </font>, <br>
+        &emsp;<font color=aqua> "A" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "IP 10.20.20.30/24" </font>, <br>
+        &emsp;<font color=aqua> "B" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "IP 10.10.10.200/24" </font>, <br>
+        &emsp;<font color=aqua> "C" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "IP 192.168.0.100/24" </font>, <br>
+        &emsp;<font color=aqua> "D" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "IP 192.168.0.200/24" </font>, <br>
+        &emsp;<font color=aqua> "E" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "10.10.10.1/24" </font>, <br>
+        &emsp;<font color=aqua> "F" </font>       &ensp;<font color=white> : </font>              <font color=burlywood> "10.1.1.200/24" </font>, <br>
         
     </div>
     <p>The tool has two execution modes: remote and local. These modes depend on other configuration parameters for their operation: </p>
