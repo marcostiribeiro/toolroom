@@ -41,6 +41,30 @@
       entering the test flow cycle.
       When an attack is detected, the security server is notified.</p>
     <img src="image/arquitetura.png">
+
+      <h2>About Machine Learning Algorithms</h2>
+      <p>In this project, five Machine Learning algorithms are used with relevance in probabilistic, linear, 
+        tree and artificial neural network models. Below is a brief description of these [Occhipinti et al. 2022, Ganaie et al. 2022].</p>
+      
+      <Ul>
+        <li><b>Gaussian Naive Bayes:</b> based on Bayes' theorem, this algorithm belongs to the probabilistic family of classifiers. 
+        Using the prior probability according to the class samples provided,
+         when a new sample is inserted, the algorithm calculates the probability of this sample belonging to one of the previously trained classes.
+        </li>
+        <li><b>Support Vector Machine:</b> is a linear classifier based on finding the hyperplane, which provides the maximum 
+        separation distance between classes and allows the classification of data point
+        </li>
+        <li><b>Random Forest:</b> the classifier combines multiple decision trees in which each classifier is built from given data and the results are combined to make predictions. 
+          The model is contained in classifiers that use graph techniques commonly called trees. 
+        </li>
+        <li><b>Multilayer Perceptron:</b>  is a model of Artificial Neural Networks. MLP consists of several layers connected by neurons and each layer is connected to the next,
+           mapping an input set to an output set. 
+        </li>
+        <li><b>Stacking Classifier:</b> allows you to group several classifiers that are used as a basis for training the model. The model uses a meta-learning algorithm to 
+          learn the best combinations of predictions across multiple algorithms [Ganaie et al. 2022]. For the model proposed for this study, the algorithms used in the stacking technique were: 
+          Gaussian Naive Bayes, Support Vector Machine, Random Forest and Multilayer Perceptron. </li>
+      </Ul>
+
     <p>The models have different characteristics depending on the metrics they have.
       The system administrator has the possibility to choose which algorithm meets his needs. For example, if it needs
       fast algorithms, it does not depend on false positives. The Stacking Classifier ensemble algorithm showed higher
@@ -52,6 +76,13 @@
     <img src="image/metricsML.png">
     <p></p>
     <img src="image/timeResponse.png">
+
+    <h2>References</h2>
+    <p>Ganaie, M., Hu, M., Malik, A., Tanveer, M., and Suganthan, P. (2022). Ensemble deep
+      learning: A review. Engineering Applications of Artificial Intelligence, 115:105151.</p>
+    <p>Occhipinti, A., Rogers, L., and Angione, C. (2022). A pipeline and comparative study of
+      12 machine learning models for text classification. Expert Systems with Applications,
+      201:117193.</p>
 
   </div>
 
