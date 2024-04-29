@@ -79,6 +79,9 @@ img{
   margin: auto;
   display: block;
   color: white;
+  max-width:657px;
+  max-height:333px;
+  
 }
 .json{
   font-size: 20px;
