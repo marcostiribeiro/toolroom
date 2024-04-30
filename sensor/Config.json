@@ -1,6 +1,6 @@
 {
     "service":"remote",
-    "type" : "predict",
+    "type" : "resume",
     "model": "RF",
     "interface_controller": "enp0s3",
     "interface": "enp0s8",

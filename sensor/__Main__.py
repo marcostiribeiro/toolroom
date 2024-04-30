@@ -45,7 +45,7 @@ class sensor:
         self.service = usr_config["service"]
         self.type = usr_config["type"]
         if self.service == "remote":
-            if self.type == "predict":
+            if self.type == "resume":
                 self.model = self.select_model(usr_config["model"])
                 self.interfaceLan = usr_config["interface"]
                 self.interface_controller = usr_config["interface_controller"]
@@ -285,7 +285,7 @@ class sensor:
 
         if self.service == "remote":
             predictions = self.model[1].predict(flow_features)
-            if self.type == "predict":
+            if self.type == "resume":
                 for row, prediction in zip(metadata.values, predictions):
                     from_ip, to_ip, proto, from_port, to_port = row
                     if prediction:
@@ -303,7 +303,6 @@ class sensor:
                                 self.send_ip_detect_prob(from_ip, proba)
                                 break
         elif self.service == "local":
-            print("aqui")
             predictions = self.model[1].predict(flow_features)
             for row, prediction in zip(metadata.values, predictions):
                 from_ip, to_ip, proto, from_port, to_port = row
@@ -344,7 +343,7 @@ class sensor:
                 print("Model not found, run training module.")
 
         if 'SVM' in _model:
-            if path.exists(self.ROOT_DIR + "/assets/model/SVM_model.pck"):
+            if path.exists(self.ROOT_DIR + "/assets/model/" + "SVM_model.pck"):
                 model_file = open(self.ROOT_DIR + "/assets/model/SVM_model.pck", "rb")
                 model = pickle.load(model_file)
                 print("********* Selected Model    **********")
@@ -356,8 +355,8 @@ class sensor:
                 print("Model not found, run training module.")
 
         if 'NN' in _model:
-            if path.exists(self.ROOT_DIR + "/assets/model/NN_model.pck"):
-                model_file = open(self.ROOT_DIR + "/model/NN_model.pck", "rb")
+            if path.exists(self.ROOT_DIR + "/assets/model/" + "NN_model.pck"):
+                model_file = open(self.ROOT_DIR + "/assets/model/NN_model.pck", "rb")
                 model = pickle.load(model_file)
                 print("********* Selected Model    **********")
                 print(model[0])
@@ -368,7 +367,7 @@ class sensor:
                 print("Model not found, run training module.")
 
         if 'SC' in _model:
-            if path.exists(self.ROOT_DIR + "/assets/model/StackingClassifier_model.pck"):
+            if path.exists(self.ROOT_DIR + "/assets/model/" + "StackingClassifier_model.pck"):
                 model_file = open(self.ROOT_DIR + "/assets/model/StackingClassifier_model.pck", "rb")
                 model = pickle.load(model_file)
                 print("********* Selected Model    **********")

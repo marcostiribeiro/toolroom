@@ -57,7 +57,7 @@ class sensor:
             pickle.dump(rf, model_file)
             model_file.close()
             print("Random Forest - End")
-        if path.exists(self.ROOT_DIR + "/assets/model/SVM_model.pck"):
+        if path.exists(self.ROOT_DIR + "/assets/model/" + "SVM_model.pck"):
             print("Support vector machine - Start")
             type_ml = "SVM"
             from sklearn.svm import LinearSVC
@@ -84,7 +84,7 @@ class sensor:
             model_file.close()
             print("Gaussina Naive Bayes - End")
 
-        if path.exists(self.ROOT_DIR + "/assets/model/NN_model.pck"):
+        if path.exists(self.ROOT_DIR + "/assets/model/" + "NN_model.pck"):
             type_ml = "NN"
             print("redes neurais - Start")
             from sklearn.neural_network import MLPClassifier
@@ -98,7 +98,7 @@ class sensor:
             model_file.close()
             print("Redes Neurais - End")
 
-        if path.exists(self.ROOT_DIR + "/assets/model/StackingClassifier_model.pck"):
+        if path.exists(self.ROOT_DIR + "/assets/model/" + "StackingClassifier_model.pck"):
             print("Stacking Classifier - Start")
             type_ml = "ALL"
             from sklearn.ensemble import StackingClassifier
